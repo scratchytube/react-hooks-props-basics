@@ -2,11 +2,10 @@ import React from "react";
 import BlogContent from "./BlogContent";
 import Comment from "./Comment";
 
-function BlogPost() {
+const BlogPost = () => {
   return (
     <div id="blog-post">
-      <BlogContent
-        articleText={
+      <BlogContent articleText={
           "Dear Reader: Bjarne Stroustrup has the perfect lecture oration."
         }
       />
